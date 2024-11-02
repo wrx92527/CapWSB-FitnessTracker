@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+.idea/
+git rm -r --cached .idea
+git commit -m "Ignore IntelliJ IDEA configuration files"
+git push origin main
